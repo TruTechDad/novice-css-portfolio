@@ -22,6 +22,12 @@ body {
     width: calc(100% - 40px);
 }
 
-.portfolio-items article:first-of-type img {
+.portfolio-items article img {
     width: 100%;
+}
+
+.portfolio-items article a {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
 }
