@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .portfolio-items {
     display: flex;
     flex-wrap: wrap;
@@ -12,4 +16,12 @@
 .portfolio-items article {
     width: calc(50% -40px);
     margin: 20px;
+}
+
+.portfolio-items article:first-of-type {
+    width: calc(100% - 40px);
+}
+
+.portfolio-items article:first-of-type img {
+    width: 100%;
 }
