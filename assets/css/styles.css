@@ -6,7 +6,54 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: blueviolet;
 }
 
+/* .nav {
+    padding-left: 80%;
+} */
 
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
 
+main {
+    max-width: 960px;
+    margin: auto;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-items article {
+    width:calc(50% - 40px);
+    margin: 20px;
+    
+}
+.portfolio-items article:first-child {
+    width: calc(100% 40px);
+}
+.portfolio-items article:first-child img {
+    width: 100%;
+}
+
+/* .project1 {
+    width: 100%;
+
+}
+
+.project2 {
+    width: 50%;
+    height: 100px;
+}
+
+.project3 {
+    width: 50%;
+} */
