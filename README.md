@@ -7,4 +7,4 @@ In this project, I am creating a professional portfolio web application from scr
 ![Screenshot of Novice CSS Portfolio](./assets/images/UNCC%20ReadME%20Port.jpg)
 
 ## Link
-[Link to deploy site](https://TruTechDad.github.io/semantic-seo-refactor)
+[Link to deploy site](https://TruTechDad.github.io/novice-css-portfolio)
