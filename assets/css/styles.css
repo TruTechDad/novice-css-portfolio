@@ -10,9 +10,10 @@ body {
     /* background-color: blueviolet; */
 }
 
-/* .nav {
-    padding-left: 80%;
-} */
+.nav a {
+    color: white;
+}
+
 
 header {
     background-color: black;
@@ -21,6 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 
 h2 {
     margin-bottom: 20px;
@@ -93,4 +95,5 @@ footer a {
     header {
         flex-direction: column;
     }
+
 }
